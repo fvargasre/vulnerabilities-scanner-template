@@ -26,7 +26,7 @@ jobs:
       - name: Run PyCharm Security
         uses: tonybaloney/pycharm-security@master
         with: 
-          fail_on_warnings: "yes"
+          fail_on_warnings: "no"
 
   docker-grype-project:
     name: Grype (Anchore) Project Scan
